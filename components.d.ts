@@ -20,7 +20,6 @@ declare module '@vue/runtime-core' {
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
     FooterBlock: typeof import('./src/components/FooterBlock.vue')['default']
-    PreloaderElement: typeof import('./src/components/UI/PreloaderElement.vue')['default']
     UserFilter: typeof import('./src/components/UserFilter.vue')['default']
     UserTable: typeof import('./src/components/UserTable.vue')['default']
   }
