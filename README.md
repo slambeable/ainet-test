@@ -1,7 +1,7 @@
 # vue-js-interview
 
 ## Description
-Project using vue3 and typescript. Element plus was used as a ui framework. Dynamic loading of users with their subsequent display in the table.
+Project using vue3 and typescript. Element plus was used as a ui framework. Dynamic loading of users with their subsequent display in a table, as well as the ability to sort them.
 
 ## GitHub Pages
 [See for an example](https://slambeable.github.io/ainet-test/).
