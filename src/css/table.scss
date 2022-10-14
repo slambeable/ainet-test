@@ -1,0 +1,18 @@
+.table-title {
+  font-size: var(--el-font-size-large);
+  font-weight: bolder;
+}
+
+.table-name {
+  font-size: var(--el-font-size-medium);
+  color: var(--el-table-text-color);
+}
+
+.table-description {
+  color: var(--el-color-info-dark-2);
+}
+
+.table-number {
+  color: white;
+  font-size: var(--el-font-size-base);
+}
