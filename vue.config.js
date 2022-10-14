@@ -6,6 +6,9 @@ const { ElementPlusResolver } = require('unplugin-vue-components/dist/resolvers.
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = defineConfig({
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/ainet-test/'
+    : '/',
   transpileDependencies: true,
   configureWebpack: {
     resolve: {
