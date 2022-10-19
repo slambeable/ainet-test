@@ -1,6 +1,6 @@
 <template>
-  <content-block />
-  <footer-block />
+    <content-block />
+    <footer-block />
 </template>
 
 <script lang="ts">
@@ -28,11 +28,22 @@ export default defineComponent({
 <style lang="scss">
 @import "./css/table";
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 8px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 </style>

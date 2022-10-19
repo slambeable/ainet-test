@@ -24,5 +24,6 @@ export default defineComponent({
 <style scoped lang="scss">
 .footer-block {
   background-color: var(--el-color-primary-light-3);
+  width: 100vw;
 }
 </style>
